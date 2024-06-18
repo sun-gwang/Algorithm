@@ -7,7 +7,7 @@
    
   </tr>
   <tr>
-    <td> <a href="http://www.naver.com">231312</a> </td>
+    <td>231312</td>
     <td> <a href="http://www.naver.com">바로가기💨</a> </td>
    
   </tr>
