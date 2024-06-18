@@ -1,4 +1,4 @@
-<h1>유형별 문제</h1>
+<h1>자료구조(DataStructure)</h1>
 
 <table>
   <tr>
