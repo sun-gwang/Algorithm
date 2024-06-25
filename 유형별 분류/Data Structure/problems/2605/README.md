@@ -13,7 +13,7 @@ public class test {
 		int n = sc.nextInt();
 		
 		for(int i =0; i< n; i++) {
-      		System.out.print("번호뽑기 입력 : ");
+			System.out.print("번호뽑기 입력 : ");
 			int k= sc.nextInt();
 			list.add(i-k, i+1);
 		}
