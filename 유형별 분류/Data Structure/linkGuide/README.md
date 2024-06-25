@@ -9,26 +9,16 @@
    
   </tr>
   <tr>
-    <td>231312</td>
-    <td> BronzeⅠ </td>
+    <td>2605</td>
+    <td> BronzeⅡ </td>
    <td> <a href="#">바로가기💨</a> </td>
   </tr>
   <tr>
-    <td>231312</td>
+    <td>31562</td>
     <td> BronzeⅠ </td>
    <td> <a href="#">바로가기💨</a> </td>
   </tr>
-   <tr>
-    <td>231312</td>
-    <td> BronzeⅠ </td>
-   <td> <a href="#">바로가기💨</a> </td>
-  </tr>
-   <tr>
-    <td>231312</td>
-    <td> BronzeⅠ </td>
-   <td> <a href="#">바로가기💨</a> </td>
-  </tr>
-  
+
   
 </table>
 
