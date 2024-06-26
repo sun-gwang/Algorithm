@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class test {
   public static void main(String[] args) {
-    System.out.print("사람수 입력 : ");
+    		System.out.print("사람수 입력 : ");
 		Scanner sc = new Scanner(System.in);
 		
 		List<Integer> list = new ArrayList<>();
