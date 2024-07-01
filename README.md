@@ -1,7 +1,9 @@
+## 🏫Algorithm Study Repository🏫
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kc5353)](https://solved.ac/kc5353/)
+
+
 ## 📖유형별 문제📖
 <hr>
-
 <table>
   <tr>
     <th>번호</th>
@@ -13,7 +15,7 @@
   <tr>
     <td>01</td>
     <td>자료 구조 </td>
-    <td>Data Structuress</td>
+    <td>Data Structures</td>
     <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Data%20Structure/linkGuide">문제집📚</a></td> <!-- list, queue, stack, set, map -->
     <td>
       <a href="https://github.com/sun-gwang/Algorithm/blob/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Data%20Structure/handbook/README.md">바로가기</a>
