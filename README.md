@@ -23,7 +23,7 @@
     <td>02</td>
     <td>정렬 </td>
     <td>Sorting</td>
-    <td><a href="#">문제집📚</a></td> <!-- list, queue, stack, set, map -->
+    <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Sorting/linkGuide">문제집📚</a></td> <!-- list, queue, stack, set, map -->
     <td>
       <a href="#">바로가기</a>
     </td>
