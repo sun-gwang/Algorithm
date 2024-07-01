@@ -1,4 +1,4 @@
-<h1>자료구조(DataStructure)</h1>
+<h1>자료구조(DataStructure)문제집 🤓</h1>
 
 <table>
   <tr>
