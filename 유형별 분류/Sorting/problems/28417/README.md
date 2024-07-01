@@ -5,21 +5,21 @@
 
 ## ✔️풀이!
 ```
+public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         // 사람 수 입력
-        System.out.print("사람 수를 입력하세요: ");
+        //System.out.print("사람 수를 입력하세요: ");
         int people = Integer.parseInt(reader.readLine());
 
         // 각 사람의 런 점수와 트릭 점수를 저장할 배열
         int[] scores = new int[people];
 
-        System.out.println(" ");
 
         // 사람 수 만큼 점수 출력
         for (int i = 0; i < people; i++) {
-            System.out.println("사람 " + (i + 1) + "의 점수를 입력하세요 (7개의 숫자를 공백으로 구분하여 입력):");
+            //System.out.println("사람 " + (i + 1) + "의 점수를 입력하세요 (7개의 숫자를 공백으로 구분하여 입력):");
 
             // 입력 받은 문자열을 StringTokenizer를 사용하여 공백을 기준으로 분리
             StringTokenizer st = new StringTokenizer(reader.readLine());
@@ -50,8 +50,11 @@
             scores[i] = sumScore;
         }
 
-        // 입력받은 최종 점수들 출력
-        System.out.println("최종 점수들: " + Arrays.toString(scores));
+         Arrays.sort(scores);
+
+        // 우승자의 점수 출력
+        System.out.println(scores[people-1]);
     }
+}
   ```
 
