@@ -1,3 +1,4 @@
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kc5353)](https://solved.ac/kc5353/)
 ## 📖유형별 문제📖
 <hr>
 
