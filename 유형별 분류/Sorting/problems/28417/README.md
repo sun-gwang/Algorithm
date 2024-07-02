@@ -15,7 +15,9 @@ public class Main {
 
         // 각 사람의 런 점수와 트릭 점수를 저장할 배열
         int[] scores = new int[people];
-
+        
+        int[] run = new int[2];
+        int[] trick = new int[5];
 
         // 사람 수 만큼 점수 출력
         for (int i = 0; i < people; i++) {
