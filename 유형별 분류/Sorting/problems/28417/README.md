@@ -16,7 +16,6 @@ public class Main {
         // 각 사람의 런 점수와 트릭 점수를 저장할 배열
         int[] scores = new int[people];
 
-
         // 사람 수 만큼 점수 출력
         for (int i = 0; i < people; i++) {
             //System.out.println("사람 " + (i + 1) + "의 점수를 입력하세요 (7개의 숫자를 공백으로 구분하여 입력):");
