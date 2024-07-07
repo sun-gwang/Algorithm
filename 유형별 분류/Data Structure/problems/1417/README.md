@@ -1,4 +1,4 @@
-<h1><a href="https://www.acmicpc.net/problem/1417">✔️1417번: 국회의원 선거</a></h1>
+<h1><a href="https://www.acmicpc.net/problem/1417">✔️1417번: 국회의원 선거 SILVERⅤ</a></h1>
 
 ### 1.문제
 ```
