@@ -24,15 +24,15 @@
 런 점수는 가장 큰 1개, 트릭점수는 가장 큰 두개를 더해주고 각각 선수들 점수 배열에 넣어주어 정렬하여, 가장 높은 점수를 출력한다.
 ```
 
-## 3.
+## 3. 풀이
 ```
 배운점: 
-1. 공백을 기준으로 입력 받고 싶을 때 ```StringTokenizer st = new StringTokenizer(reader.readLine());``` 을 사용하자
+1. 공백을 기준으로 입력 받고 싶을 때 StringTokenizer st = new StringTokenizer(reader.readLine());를 사용한다.
 2. Arrays.sort(배열)을 하면 오름차순으로 정렬된다.
 
 ```
 
-## 4. 풀이!
+## 4. 코드!
 ```
 public class Main {
     public static void main(String[] args) throws IOException {
