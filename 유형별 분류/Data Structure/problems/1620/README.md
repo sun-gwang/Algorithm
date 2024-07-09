@@ -1,4 +1,4 @@
-<h1><a href="https://www.acmicpc.net/problem/1620">✔️1620번: 나는야 포켓몬 마스터 이다 SILVERⅣ</a></h1>
+<h1><a href="https://www.acmicpc.net/problem/1620">✔️1620번: 나는야 포켓몬 마스터 이다솜 SILVERⅣ</a></h1>
 
 ### 1.문제
 ```
