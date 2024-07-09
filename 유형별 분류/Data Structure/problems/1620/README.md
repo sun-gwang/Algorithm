@@ -19,16 +19,68 @@
 
 ### 2. 접근
 ```
+숫자를 입력했을 때, 문자를 입력했을 때, 2가지의 정답지 경우가 필요 하므로 key,value를 가지는 HashMap을 2개 필요하겠다.
 ```
 
 ### 3. 풀이
 ```
+1. HashMap을 <Integer, String>, <String, Integer> 형식으로 2개 정의하여 둘 다 값을 넣어준다.
 
+2. Character.isDigit(answer.charAt(0))을 사용해 첫 번째 글자만 보고 문자인지 숫자인지 확인한다.
 ```
 
 ### 4. 코드
 ```
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.HashMap;
 
+
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        String[] input = br.readLine().split(" ");
+
+        // 포켓몬 갯수
+        int n = Integer.parseInt(input[0]);
+        // 맞춰야하는 문제 갯수
+        int m = Integer.parseInt(input[1]);
+        
+        // 포켓몬들을 넣을 맵들
+        HashMap<Integer, String> poketDogam1 = new HashMap<>();
+        HashMap<String, Integer> poketDogam2 = new HashMap<>();
+
+        for(int i=0; i<n; i++){
+            String poketmon = br.readLine();
+            poketDogam1.put(i+1, poketmon);
+            poketDogam2.put(poketmon, i+1);
+        }
+
+        for(int i=0; i<m; i++){
+            String answer = br.readLine();
+            // 숫자로 찾을 때
+            if(Character.isDigit(answer.charAt(0))){
+                int answerNumber = Integer.parseInt(answer);
+                bw.write(poketDogam1.get(answerNumber) + "\n");
+            }
+            // 문자로 찾을 때
+            else{
+                bw.write(poketDogam2.get(answer) + "\n");
+
+            }
+        }
+        bw.flush();
+        bw.close();
+        br.close();
+    }
+}
 ```
 
