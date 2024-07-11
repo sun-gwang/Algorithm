@@ -21,7 +21,7 @@
     <td><a href="https://www.acmicpc.net/problem/1080">1080</a></td>
     <td>행렬</td>
     <td>Silver Ⅰ</td>
-    <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Greedy/problems/1082">바로가기💨</a></td>
+    <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Greedy/problems/1080">바로가기💨</a></td>
   </tr>
 
    <tr>
