@@ -48,6 +48,12 @@
     <td>나는야 포켓몬 마스터 이다솜</td>
     <td>Silver Ⅳ</td>
     <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Data%20Structure/problems/1620">바로가기💨</a></td>
+</tr>
+  <tr>
+    <td><a href="https://www.acmicpc.net/problem/23284">23284</a></td>
+    <td>모든 스택 수열</td>
+    <td>Gold Ⅴ</td>
+    <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Data%20Structure/problems/23284">바로가기💨</a></td>
   </tr>
 </table>
 
