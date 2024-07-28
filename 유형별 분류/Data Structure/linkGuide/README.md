@@ -61,5 +61,12 @@
     <td>Silver Ⅳ</td>
     <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Data%20Structure/problems/28278">바로가기💨</a></td>
   </tr>
+   </tr>
+   <tr>
+    <td><a href="https://www.acmicpc.net/problem/10773">10773</a></td>
+    <td>제로</td>
+    <td>Silver Ⅳ</td>
+    <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Data%20Structure/problems/10773">바로가기💨</a></td>
+  </tr>
 </table>
 
