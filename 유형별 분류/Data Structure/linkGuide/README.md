@@ -58,7 +58,7 @@
    <tr>
     <td><a href="https://www.acmicpc.net/problem/28278">28278</a></td>
     <td>스택 2</td>
-    <td>Gold Ⅴ</td>
+    <td>Silver Ⅳ</td>
     <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Data%20Structure/problems/28278">바로가기💨</a></td>
   </tr>
 </table>
