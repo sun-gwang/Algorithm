@@ -44,7 +44,7 @@
     <td><a href="https://www.acmicpc.net/problem/2779">2779</a></td>
     <td>별 찍기 - 10</a></td>
     <td>Gold Ⅴ</td>
-    <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Recursion/problems/2779">바로가기💨</a></td>
+    <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Recursion/problems/2447">바로가기💨</a></td>
 </tr>
 <tr>
     <td><a href="https://www.acmicpc.net/problem/11729">11729</a></td>
