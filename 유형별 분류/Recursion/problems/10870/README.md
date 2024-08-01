@@ -23,12 +23,14 @@ n이 주어졌을 때, n번째 피보나치 수를 구하는 프로그램을 작
 첫째 줄에 n번째 피보나치 수를 출력한다.
 ```
 
+
 ### 2. 접근
 ```
 1. 재귀를 사용하여 자리수를 입력하면 피보나치의 해당 자리 수 값을 출력하는 함수를 만들어준다.
 ```
 
-### 3. 풀이
+
+### 3. 풀이 1
 ```
 1. 피보나치의 구조를 파악한다
 
@@ -57,7 +59,8 @@ public static int fibonacci(int n){
     } 
 ```
 
-### 4. 코드
+
+### 4. 코드1
 ```
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -93,4 +96,62 @@ public class Main {
     }
 }
 ```
+
+
+### 3. 풀이 2
+```
+1. 피보나치 수열을 저장할 배열을 구현한다.
+
+  - int fibonacci = new int[n+1];
+
+
+2. 배열의 0번째, 1번째는 무조건 0,1로 초기화한다.
+
+  - if(n>=0) fibonacci[0] = 0;
+    if(n>=1) fibonacci[1] = 1;
+
+
+3. 피보나치 수열을 저장하는 배열에 값을 입력해준다.
+
+  - for(int i=2; i<=n; i++){
+    fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+  }
+```
+
+
+### 4. 코드2
+```
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));        
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int n = Integer.parseInt(br.readLine());
+
+        int fibonacci[] = new int[n+1];
+
+        if(n>=0) fibonacci[0]=0;
+        if(n>=1) fibonacci[1]=1;
+    
+        for(int i = 2; i<=n; i++){
+            fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
+        }
+
+        bw.write(String.valueOf(fibonacci[n]));
+        bw.flush();
+        bw.close();
+        br.close();
+    }
+}
+```
+
+
 
