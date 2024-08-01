@@ -13,7 +13,7 @@
  <tr>
     <td><a href="https://www.acmicpc.net/problem/27433">27433</a></td>
     <td>팩토리얼 2</a></td>
-    <td>Bronze ⅴ</td>
+    <td>Bronze Ⅴ</td>
     <td><a href="https://github.com/sun-gwang/Algorithm/tree/main/%EC%9C%A0%ED%98%95%EB%B3%84%20%EB%B6%84%EB%A5%98/Greedy/problems/27433">바로가기💨</a></td>
 </tr>
 <tr>
