@@ -35,7 +35,7 @@
 
 2. 팩토리얼 함수 구현 (17부터 int가 못담기 때문에 함수 출력을 long으로 해줘야 오류 안생김)
 
- - public static long factorial(int n){
+  public static long factorial(int n){
 
         if(n == 0) {
             return 1;
