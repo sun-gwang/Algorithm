@@ -3,64 +3,39 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Stack;
-import java.util.StringTokenizer;
 
 
 public class Main {
 
+    // 2 = 피보나치(1) + 피보나치(0) = 1
+    // 3 = 피보나치(2) + 피보나치(1) = 2
+    // 4 = 피보나치(3) + 피보나치(2) = 3
+    // 5 = 피보나치(4) + 피보나치(2) = 5
+    // 6 = 피보나치(5) + 피보나치(4) = 8
+    // 7 = 피보나치(6) + 피보나치(5) = 13
+    public static int fibonacci(int n){
+        if(n==0){
+            return 0;
+        }else if (n==1) {
+            return 1;
+        }else{
+            return fibonacci(n-1) + fibonacci(n-2);
+
+        }
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
 
-        Stack<Integer> stack = new Stack<>();
-        
-        int a = Integer.parseInt(br.readLine());
+        int n = Integer.parseInt(br.readLine());
 
-        for(int i=0; i<a; i++){
-            StringTokenizer st = new StringTokenizer(br.readLine());
-
-            int b = Integer.parseInt(st.nextToken());
-
-            switch (b) {
-                case 1:
-                    int x = Integer.parseInt(st.nextToken());
-                    stack.push(x);
-                    break;
-                case 2:
-                    if(stack.isEmpty()){
-                        sb.append("-1\n");
-                    }else{
-                        sb.append(stack.pop()).append("\n");
-                    }
-                    break;
-                case 3:
-                    sb.append(stack.size()).append("\n");
-                    break;
-                case 4:
-                    if(stack.isEmpty()){
-                        sb.append("1\n");
-                    }else{
-                        sb.append("0\n");
-                    }
-                    break;
-                case 5:
-                    if(stack.isEmpty()){
-                        sb.append("-1\n");
-                    }else{
-                        sb.append(stack.peek()).append("\n");
-
-                    }
-                    break;
-                default:
-                    throw new AssertionError();
-            }
-        }
-        bw.write(sb.toString());
+        int result = fibonacci(n);
+        bw.write(String.valueOf(result));
+       
+    
         bw.flush();
         bw.close();
         br.close();
-
     }
 }
